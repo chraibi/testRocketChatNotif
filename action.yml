@@ -18,7 +18,7 @@ jobs:
         message: Wooops! Looks like something went wrong!
         user: ${{ secrets.ROCKETCHAT_USER }}
         password: ${{ secrets.ROCKETCHAT_PASSWORD }}
-        channel: alerts
+        channel: testgithub
 
 name: PR_alert
 on:
@@ -37,5 +37,5 @@ jobs:
         message: Woop! Woop! A new Pull Request has being created at ${{ github.event.pull_request.html_url }}
         user: ${{ secrets.ROCKETCHAT_USER }}
         password: ${{ secrets.ROCKETCHAT_PASSWORD }}
-        channel: python_rocketchat_api
+        channel: testgithub
         code: false
