@@ -1,3 +1,5 @@
+# delete
+
 - name: Rocket.Chat notification with credentials
   uses: jadolg/rocketchat-notification-action@v1.0.0
   
