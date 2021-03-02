@@ -1,2 +1,2 @@
-- name: Rocket.Chat Notification
-  uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@1.1.1
+- name: Rocket.Chat notification with credentials
+  uses: jadolg/rocketchat-notification-action@v1.0.0
