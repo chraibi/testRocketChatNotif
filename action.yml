@@ -1,0 +1,2 @@
+- name: Rocket.Chat Notification
+  uses: RocketChat/Rocket.Chat.GitHub.Action.Notification@1.1.1
