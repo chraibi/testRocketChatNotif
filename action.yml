@@ -1,9 +1,7 @@
 - name: Rocket.Chat notification with credentials
   uses: jadolg/rocketchat-notification-action@v1.0.0
   
-  
-
-
+# https://github.com/marketplace/actions/rocket-chat-notification-with-credentials
 on: [push]
 
 jobs:
